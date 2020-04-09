@@ -1,2 +1,3 @@
 # RhinoPythonScripts
 Scripts for use in Rhino 3D and Grasshopper
+These are public scripts that can perhaps be of use in day-to-day projects and learning.
