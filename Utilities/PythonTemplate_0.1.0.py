@@ -1,5 +1,8 @@
 """
-Python template for Rhino and Grasshopper.
+Inputs:
+   x: The x script variable
+Outputs:
+   a: The a output variable
 """
 
 __author__ = "Darrel Ronald"
