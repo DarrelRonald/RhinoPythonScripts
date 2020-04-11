@@ -1,3 +1,6 @@
+"""
+This script aims to show the different styles of deleting objects in Rhino. 
+"""
 import Rhino
 import scriptcontext as sc
 import System.Guid
@@ -32,7 +35,6 @@ if __name__=="__main__":
     AddCircle()
     
     #---- Option Scriptcontext
-    id = rs.AllObjects(select=True)
     sc.doc.Objects.Clear()
     
     AddCircle2()
