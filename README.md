@@ -1,8 +1,7 @@
 # RhinoPython and ghPyton Scripts
-Scripts for use in Rhino 3D and Grasshopper.
-These are public scripts that can perhaps be of use in day-to-day projects and learning.
+Scripts for use in Rhino 3D and Grasshopper. These are public scripts that can perhaps be of use in day-to-day projects and learning. 
 
-What has been especially frustrating for me when learning scripting within the context of Rhino3D and Grasshopper3D is the many different ways to do the same things. Further frustrating is the whole learning process around the `.NET` framework and the class-oriented object-oriented programming of the McNeel examples.
+What has been especially frustrating for me when learning scripting within the context of Rhino3D and Grasshopper3D is the many different ways to do the same things. Further frustrating is the whole learning process around the `.NET` framework and the class-oriented object-oriented programming of the McNeel [Rhino Developer Examples](https://github.com/mcneel/rhino-developer-samples/tree/5c8ac43e6d679125f08b5713ff1ac311819acd49).
 
 ## Learning
 * __Add-Delete-Circle.py__ (includes: .py): this is a modification of the `add-circle.py` code of McNeel to see the 2 different methods of writing the `circle()` class and also to compare 2 ways to delete objects within the Rhino3D file using either `scriptcontext` versus `RhinoCommon` and `rhinoscriptcontext`.
