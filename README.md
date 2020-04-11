@@ -1,6 +1,7 @@
 # RhinoPython and ghPyton Scripts
 Scripts for use in Rhino 3D and Grasshopper.
-These are public scripts that can perhaps be of use in day-to-day projects and learning.<br/>
+These are public scripts that can perhaps be of use in day-to-day projects and learning.
+
 What has been especially frustrating for me when learning scripting within the context of Rhino3D and Grasshopper3D is the many different ways to do the same things. Further frustrating is the whole learning process around the `.NET` framework and the class-oriented object-oriented programming of the McNeel examples.
 
 ## Learning
