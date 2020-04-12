@@ -1,9 +1,9 @@
 # RhinoPython and ghPyton Scripts
 Scripts for use in Rhino 3D and Grasshopper. These are public scripts that can perhaps be of use in day-to-day projects and learning. 
 
-What has been especially frustrating for me when learning scripting within the context of Rhino3D and Grasshopper3D is the many different ways to do the same things. For example, you can create the same script functionality in Python by using `scriptcontext` versus `RhinoCommon` versus `rhinoscriptcontext`. This flexibility is both good and bad, because it creates confusion around what is the best method to write scripts. In addition, each of the methods has pros/cons that need workarounds.
+What has been especially frustrating for me when learning scripting within the context of Rhino3D and Grasshopper3D is the many different ways to do the same things. For example, you can create the same script functionality in Python by using `scriptcontext` versus `RhinoCommon` versus `rhinoscriptcontext`. This flexibility is both good and bad, because it simplifies some things, but creates confusion around what is the best method to write scripts. In addition, each of the methods has pros/cons that need workarounds. For example, the `rhinoscriptsyntax` is simpler for writing scripts, but the API is incomplete. 
 
-Further frustrating is the whole learning process around understanding and using the `.NET` framework, `IronPython` and how to work with `.NET Assemblies`. The documentation is very difficult to understand and McNeel doesn't offer any training (that I know of) to work with these libraries. 
+Further frustrating in the learning process is about understanding and using the `.NET` framework, `IronPython` and how to work with `.NET Assemblies`. The Microsoft documentation is very difficult to understand, there are many different versions of `.NET` and McNeel doesn't offer any guides or overviews (that I know of) to work with these libraries. 
 
 For many of the ghPython scripts we only need proedural programming, but the class-oriented and object-oriented programming of the .NET environment and the McNeel [Rhino Developer Examples](https://github.com/mcneel/rhino-developer-samples/tree/5c8ac43e6d679125f08b5713ff1ac311819acd49) make learning more confusing for non-professional coders.
 
