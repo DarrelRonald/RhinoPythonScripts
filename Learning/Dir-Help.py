@@ -21,7 +21,7 @@ import System
 print dir(System.Collections)
 help(System.Collections.ArrayList)
 
-# No API documentation found online
+# https://docs.python.org/3/library/sys.html
 import sys
 print dir(sys)
 help(sys)
