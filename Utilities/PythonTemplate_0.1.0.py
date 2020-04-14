@@ -5,8 +5,15 @@ Outputs:
    a: The a output variable
 """
 
-__author__ = "Darrel Ronald"
-__version__ = "2020"
+__author__ = ""
+__copyright__ = "Copyright 2020"
+__credits__ = ""
+__license__ = "MIT License"
+__version__ = "0.0.1"
+__maintainer__ = ""
+__email__ = ""
+__status__ = ""
+
 
 #----Import .NET Assemblies
 #https://ironpython.net/documentation/dotnet/dotnet.html
