@@ -9,7 +9,7 @@ For many of the ghPython scripts we only need proedural programming, but the cla
 
 ## Learning
 * __Add-Delete-Circle.py__ (includes: .py): this is a modification of the `add-circle.py` code of McNeel to see the 2 different methods of writing the `circle()` class and also to compare 2 ways to delete objects within the Rhino3D file using either `scriptcontext` versus `RhinoCommon` versus `rhinoscriptcontext`. One very good article I found after all this exploration was by [Danil Nagy](https://medium.com/generative-design/working-with-geometry-in-python-a256de7bb1b1)-however, the one mistake he makes is writing `Rhino.Geometry` instead of the correct `Rhino` library. `Rhino.Geometry` only gives you access to that specific Geometry Namespace.
-* __Dir-Help.py__ (includes: .py): this is an example of how to use the builtin python functions `dir()` and `help()` when learning about new python or rhinopython modules while you're writing scripts. It can be used in your IDE as an alternative to looking up the API documentation online, which in some cases doesn't exist.
+* __Dir-Help.py__ (includes: .py): this is an example of how to use the builtin python functions `dir()` and `help()` when learning about new Python or RhinoPython modules while you're writing scripts. It can be used in your IDE as an alternative to looking up the API documentation online, which in some cases doesn't exist.
 
 ## Utilities
 * __ListOfRhinoCommands__ (includes: .py, .gha): this sorts a list of all `Rhino.Commands` that can be accessed through RhinoCommon. It is a tool for seeing quickly what commands are available. You can also copy the output panel contents and paste into an excel sheet.
