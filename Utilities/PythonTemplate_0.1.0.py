@@ -41,3 +41,7 @@ __status__ = ""
 #sc.doc = Rhino.RhinoDoc.ActiveDoc
 # set the gh Script back to Grasshoper after interacting with Rhino
 #sc.doc = ghdoc
+
+import urllib
+
+dir(urllib)
