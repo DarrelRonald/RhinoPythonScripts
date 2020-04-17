@@ -16,3 +16,8 @@ For many of the ghPython scripts we only need proedural programming, but the cla
 * __ScriptContextChanger__ (includes different: .py, .gha): these are more educational code blocks. However, if you're writing python scripts using RhinoCommon, you will sometimes need to change the `scriptcontext.doc`
 * __ImportSysExplorer_0.1.0__ (includes: .gha): This ghPython module imports the sys module from IronPython and exports to panels both `sys.builtin_module_names` and the `sys.path`.
 * __PythonTemplate_0.1.0__ (includes: .py): This python script has the most important python template elements.
+
+## Tips & Tricks
+Below are some things that I've noticed along the way, read up on the Discourse forum and know that others will probably find these same challenges, bugs or frustrations.
+
+1. In a Python script, sometimes the builtin Rhino Python Editor (both Rhino and Grasshopper) won't recognize the full set of IronPython modules. Other people also had this problem. You can `import` the modules you want, and intellisense should start working after it has been imported. I had this problem on Window 10, Rhino v6 SR 24. In the above __Learning__ section you will see the script `
