@@ -20,7 +20,7 @@ For many of the ghPython scripts we only need proedural programming, but the cla
 
 
 # Tips & Tricks
-Below are some things that I've noticed along the way, read up on the Discourse forum and know that others will probably find these same challenges, bugs or frustrations.
+Below are some things that I've noticed along the way, read up on the [McNeel Discourse Forum](https://discourse.mcneel.com/) and know that others will probably find these same challenges, bugs or frustrations. __Feel free to fork and propose changes__.
 
 1. __Rhino Dev Docs General Guides__: Rhino Dev Docs has a somewhat hidden but very helpful set of [General Guides](https://developer.rhino3d.com/guides/general/). Some valuable articles are: [Rhino Technology Overview](https://developer.rhino3d.com/guides/general/rhino-technology-overview/) and [Developer Preprequisites](https://developer.rhino3d.com/guides/general/rhino-developer-prerequisites/) among others  
 1. __Rhino Python Intellisense__: In a Python script, sometimes the builtin Rhino Python Editor (both Rhino and Grasshopper) won't recognize the full set of IronPython modules. Other people also had this problem. You can `import` the modules you want, and intellisense should start working after it has been imported. I had this problem on Window 10, Rhino v6 SR 24. In the above __Learning__ section you will see the script `GetIronPythonModules.py` you can see the full list of importable modules from Rhino Python.
