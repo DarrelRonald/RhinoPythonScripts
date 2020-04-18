@@ -13,11 +13,10 @@ For many of the ghPython scripts we only need proedural programming, but the cla
 * __GetIronPythonModules.py__ (includdes: .py, .gh): This allows you to see all importable modules as well as a selected `sys.path` directory because sometimes the Rhino Python Editor Intellisense doesn't recognize all the IronPython modules. This allows you to see what Rhino will recognize. Thanks to [Anders Deleuran](https://discourse.mcneel.com/u/AndersDeleuran) for helping me with this on this [McNeel Discourse thread](https://discourse.mcneel.com/t/importing-ironpython-libraries/100288).
 
 ## Utility Scripts/Components
-* __ListOfRhinoCommands__ (includes: .py, .gh): this sorts a list of all `Rhino.Commands` that can be accessed through RhinoCommon. It is a tool for seeing quickly what commands are available. You can also copy the output panel contents and paste into an excel sheet.
-* __ScriptContextChanger__ (includes different: .py, .gh): these are more educational code blocks. However, if you're writing python scripts using RhinoCommon, you will sometimes need to change the `scriptcontext.doc`
-* __ImportSysExplorer_0.1.0__ (includes: .gh): This ghPython module imports the sys module from IronPython and exports to panels both `sys.builtin_module_names` and the `sys.path`.
 * __PythonTemplate_0.1.0__ (includes: .py): This python script has the most important python template elements.
-
+* __ListOfRhinoCommands__ (includes: .py, .gh): this sorts a list of all `Rhino.Commands` that can be accessed through RhinoCommon. It is a tool for seeing quickly what commands are available. You can also copy the output panel contents and paste into an excel sheet.
+* __ImportSysExplorer_0.1.0__ (includes: .gh): This ghPython module imports the sys module from IronPython and exports to panels both `sys.builtin_module_names` and the `sys.path`.
+* __ScriptContextChanger__ (includes different: .py, .gh): these are more educational code blocks. However, if you're writing python scripts using RhinoCommon, you will sometimes need to change the `scriptcontext.doc`
 
 # Tips & Tricks
 Below are some things that I've noticed along the way, read up on the [McNeel Discourse Forum](https://discourse.mcneel.com/) and know that others will probably find these same challenges, bugs or frustrations. __Feel free to fork and propose changes__.
